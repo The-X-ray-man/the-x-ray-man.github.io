@@ -73,16 +73,7 @@ function solve(){}
     // putFile();
 
     var asd = getFile();
-
-
-
-    function meatSelectHandler(e)
-    {
-        e.preventDefault();
-        const meatSelected = meatSelector.value
-
-    }
-
+    
     function createElement(tag, properties, container) {
 		let element = document.createElement(tag);
 		Object.keys(properties).forEach(key => {
