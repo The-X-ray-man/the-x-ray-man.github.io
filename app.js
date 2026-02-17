@@ -40,6 +40,7 @@ window.addEventListener("load", solve);
 
 function solve(){
     var asd = getFile();
+    let n = asd;
 }
     // let ingredientList = [];
     // ingredientList.push(new IngredientEntry('телешко',250,'грама')); 
