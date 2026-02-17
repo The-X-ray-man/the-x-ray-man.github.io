@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
     display:block;
-
 }
 
 *, 
@@ -15,3 +14,24 @@ html {
     font-family: "Lato", sans-serif;
 }
 
+select{
+    text-align: center;
+}
+
+.filters{
+    display: block;
+    padding: 10px;
+    margin: 20px;
+    border: 10px ridge rgba(50, 172, 220, 0.377);
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.dropdown{
+    display:inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+body{
+    background-color: rgb(227, 249, 250);
+}

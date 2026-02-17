@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="filters">
-    <p><label for="mealType">Тип ястие:</label>
+    <div class="dropdown"><label for="mealType">Тип ястие:</label>
         <select name="mealType" id="mealType">
             <option value="">--всички--</option>
             <option value="супи">супи</option>
@@ -22,8 +22,8 @@
             <option value="зърнени">зърнени</option>
             <option value="междинки">междинки</option>
         </select>
-    </p>
-    <p>   
+    </div>
+    <div class="dropdown">   
         <label for="meat">Месо:</label>
         <select name="withMeat" id="withMeat">
             <option value="">--всички--</option>
@@ -32,8 +32,8 @@
             <option value="с морски продукти">с морски продукти</option>
             <option value="безмесни">безмесни</option>
         </select>
-    </p> 
-    <p>   
+    </div> 
+    <div class="dropdown">   
         <label for="meatSelect">Месо:</label>
         <select name="meatSelect" id="meatSelect">
             <option value="">--всички--</option>
@@ -43,11 +43,17 @@
             <option value="turkey">пуешко</option>
             <option value="kalf">телешко</option>
         </select>
-    </p>     
+    </div>     
     </nav>
     
     <main>
-
+        <div class="recipesContainer">
+            <article class="recipe">
+                <h1 class="recipeName">
+                    Име на рецептата
+                </header>
+            </article>
+        </div>
     </main>
 
 </body>
