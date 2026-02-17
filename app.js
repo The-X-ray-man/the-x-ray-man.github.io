@@ -38,7 +38,9 @@ window.addEventListener("load", solve);
 
 
 
-function solve(){}
+function solve(){
+    var asd = getFile();
+}
     // let ingredientList = [];
     // ingredientList.push(new IngredientEntry('телешко',250,'грама')); 
     // ingredientList.push(new IngredientEntry('грах-буркан',700,'грама'));
@@ -70,7 +72,6 @@ function solve(){}
     // let jss = JSON.stringify(recipes);
     // putFile();
 
-    var asd = getFile();
     
     function createElement(tag, properties, container) {
 		let element = document.createElement(tag);
