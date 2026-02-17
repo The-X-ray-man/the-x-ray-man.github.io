@@ -20,10 +20,10 @@ select{
 
 .filters{
     display: block;
-    padding: 10px;
-    margin: 20px;
-    border: 10px ridge rgba(50, 172, 220, 0.377);
-    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem;
+    border: 1rem ridge rgba(50, 172, 220, 0.377);
+    border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     background-color: antiquewhite;
     text-align: center;
@@ -31,11 +31,15 @@ select{
 
 .dropdown{
     display:inline-block;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 1rem 0px 1rem;
 }
 
 body{
     background-color: rgb(227, 249, 250);
+}
+
+main{
+    text-align: center;
 }
 
 h1{
@@ -49,7 +53,7 @@ h1{
     height: 67vw;
     border: 2px solid rgba(17, 82, 107, 0.377);
     border-radius: 10px;
-    margin: 1vw;
+    margin: 1vw 16vw 1vw 16vw;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
