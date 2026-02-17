@@ -44,7 +44,9 @@ h1{
 }
 
 .recipe{
-    height: 400px;
+    display:block;
+    width: 90vw;
+    height: 67vw;
     border: 2px solid rgba(17, 82, 107, 0.377);
     border-radius: 10px;
     margin: 1vw;
