@@ -2,42 +2,42 @@ window.addEventListener("load", solve);
 const meatSelector = document.querySelector('#with-meat');
 meatSelector.addEventListener('change', meatSelectHandler);
 
-class IngredientEntry{
-    constructor(name, quantity, unit){
-        this.name = name;
-        this.quantity = quantity;
-        this.unit = unit;
-    }
-}
+// class IngredientEntry{
+//     constructor(name, quantity, unit){
+//         this.name = name;
+//         this.quantity = quantity;
+//         this.unit = unit;
+//     }
+// }
 
-class TagSet{
-    constructor(mealType, meat, ingredientKeys){
-        this.mealType = mealType;
-        this.meat = meat;
-        this.ingredientKeys = ingredientKeys;
-        }
-}
+// class TagSet{
+//     constructor(mealType, meat, ingredientKeys){
+//         this.mealType = mealType;
+//         this.meat = meat;
+//         this.ingredientKeys = ingredientKeys;
+//         }
+// }
 
-class NutritionSet{
-    constructor(proteins, fats, carbohydrates, calories){
-        this.proteins = proteins;
-        this.fats = fats;
-        this.carbohydrates = carbohydrates;
-        this.calories = calories;
-    }
-}
+// class NutritionSet{
+//     constructor(proteins, fats, carbohydrates, calories){
+//         this.proteins = proteins;
+//         this.fats = fats;
+//         this.carbohydrates = carbohydrates;
+//         this.calories = calories;
+//     }
+// }
 
-class RecipeEntry{
-    constructor(recipeName, tagSet, nutritionSet, portionWeight, ingredientList, pictureURL, preparationSteps){
-        this.recipeName = recipeName;
-        this.pictureURL = pictureURL;
-        this.tagSet = tagSet;
-        this.nutritionSet = nutritionSet;
-        this.portionWeight = portionWeight;
-        this.ingredientList = ingredientList;
-        this.preparationSteps = preparationSteps;
-    }
-}
+// class RecipeEntry{
+//     constructor(recipeName, tagSet, nutritionSet, portionWeight, ingredientList, pictureURL, preparationSteps){
+//         this.recipeName = recipeName;
+//         this.pictureURL = pictureURL;
+//         this.tagSet = tagSet;
+//         this.nutritionSet = nutritionSet;
+//         this.portionWeight = portionWeight;
+//         this.ingredientList = ingredientList;
+//         this.preparationSteps = preparationSteps;
+//     }
+// }
 
 
 
