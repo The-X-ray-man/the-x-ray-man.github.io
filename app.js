@@ -40,7 +40,10 @@ class RecipeEntry{
 
 function solve(){
     var asd = getFile();
-    let n = asd;
+    asd.forEach(element => {
+        let meatName = element.TagSet.ingredientKeys[0];
+    });
+
 }
     // let ingredientList = [];
     // ingredientList.push(new IngredientEntry('телешко',250,'грама')); 
