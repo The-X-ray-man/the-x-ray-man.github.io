@@ -39,7 +39,7 @@ class RecipeEntry{
 
 
 function solve(){
-    var asd = getFile();
+    const asd = getFile();
     asd.forEach((element) => {
         let meatName = element.TagSet.ingredientKeys[0];
     });
@@ -97,9 +97,7 @@ function solve(){
         if (!response.ok) {
             throw new Error(`Response status: ${response.status}`);
         }
-        console.log(response);
         const result = await response.json();
-        console.log(result);
         return(result);
         }     
     catch (error) {
