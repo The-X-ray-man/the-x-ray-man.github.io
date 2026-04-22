@@ -41,7 +41,7 @@ class RecipeEntry{
 function solve(){
     const asd = getFile();
     const n = Array.from(asd);
-    asd.forEach((element) => {
+    n.forEach((element) => {
         let meatName = element.TagSet.ingredientKeys[0];
     });
 
