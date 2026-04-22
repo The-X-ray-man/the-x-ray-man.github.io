@@ -98,9 +98,9 @@ function solve(){
         if (!response.ok) {
             throw new Error(`Response status: ${response.status}`);
         }
-        console.log(response);
+        console.log('Response: ',response);
         const result = await response.json();
-        console.log(result);
+        console.log('Result: ', result);
         return(result);
         }     
     catch (error) {
