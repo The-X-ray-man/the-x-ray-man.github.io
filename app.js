@@ -40,8 +40,6 @@ class RecipeEntry{
 
 function solve(){
     var asd = getFile();
-    let recipes = JSON.parse(asd);
-
     let n = asd;
 }
     // let ingredientList = [];
