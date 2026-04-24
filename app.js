@@ -38,14 +38,6 @@ class RecipeEntry{
 
 
 
-function solve(){
-    const asd = getFile();
-    let n = Array.from(asd);
-    n.forEach((element) => {
-        let meatName = element.TagSet.ingredientKeys[0];
-    });
-
-}
     // let ingredientList = [];
     // ingredientList.push(new IngredientEntry('телешко',250,'грама')); 
     // ingredientList.push(new IngredientEntry('грах-буркан',700,'грама'));
@@ -165,3 +157,11 @@ function solve(){
     //     createBtn.disabled = '';
     // }
 
+function solve(){
+    const asd = getFile();
+    let n = Array.from(asd);
+    n.forEach((element) => {
+        let meatName = element.TagSet.ingredientKeys[0];
+    });
+
+}
