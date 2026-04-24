@@ -90,9 +90,7 @@ class RecipeEntry{
         if (!response.ok) {
             throw new Error(`Response status: ${response.status}`);
         }
-        console.log('Response: ',response);
-        const result = await response.json();
-        console.log('Result: ', result);
+        const result = Array.from(await response.json());
         return(result);
         }     
     catch (error) {
