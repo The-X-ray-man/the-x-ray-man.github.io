@@ -86,11 +86,11 @@ class RecipeEntry{
 
     async function getFile() {
     try {
-        const response = await fetch('RecipeTemplate.json');
+        var response = await fetch('RecipeTemplate.json');
         if (!response.ok) {
             throw new Error(`Response status: ${response.status}`);
         }
-        const result = Array.from(await response.json());
+        var result = await response.json();
         return(result);
         }     
     catch (error) {
@@ -156,10 +156,13 @@ class RecipeEntry{
     // }
 
 function solve(){
-    const asd = getFile();
-    let n = Array.from(asd);
-    n.forEach((element) => {
-        let meatName = element.TagSet.ingredientKeys[0];
+    var asd = await getFile();
+    let meatNames = [];
+    asd.forEach((element) => {
+        // Access the first ingredient key if it exists
+        if (element.TagSet && element.TagSet.ingredientKeys && element.TagSet.ingredientKeys.length > 0) {
+            let meatName = element.TagSet.ingredientKeys[0];
+            meatNames.push(meatName); // Store it
+        }
     });
-
 }
